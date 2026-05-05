@@ -19,10 +19,6 @@ authors:
     given-names: Muhammad
     orcid: "https://orcid.org/0009-0007-2720-8433"
     affiliation: "Institute of Traffic Telematics, TUD Dresden University of Technology"
-  - family-names: Michler
-    given-names: Oliver
-    orcid: "https://orcid.org/0000-0002-8599-5304"
-    affiliation: "Institute of Traffic Telematics, TUD Dresden University of Technology"
 # `date-released` and `doi` are populated once the v1.0-ipin2026 release
 # is tagged and Zenodo mints the corresponding archive DOI.
 repository-code: "https://github.com/TUD-ITVS/hymn-localization-ipin2026"
@@ -49,9 +45,6 @@ preferred-citation:
     - family-names: Ammad
       given-names: Muhammad
       orcid: "https://orcid.org/0009-0007-2720-8433"
-    - family-names: Michler
-      given-names: Oliver
-      orcid: "https://orcid.org/0000-0002-8599-5304"
   collection-title: "Proceedings of the 15th International Conference on Indoor Positioning and Indoor Navigation (IPIN 2026)"
   year: 2026
 references:

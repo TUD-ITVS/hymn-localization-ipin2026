@@ -2,7 +2,7 @@
 
 Companion code for the IPIN 2026 paper *From Least Squares to Deep Learning: Benchmarking Indoor Positioning on the HYMN Multi-Technology Dataset*. Implements iterative least squares (ILS), robust least squares (RLS), Bayesian grid filtering (BGF), and two ResNet variants (RandomSplit and SpatialHoldout protocols), and reproduces every number, table, and figure in the manuscript from the bundled CSV inputs.
 
-- **Paper authors**: Paul Schwarzbach, Muhammad Ammad, Oliver Michler — Institute of Traffic Telematics, TUD Dresden University of Technology
+- **Paper authors**: Paul Schwarzbach and Muhammad Ammad — Institute of Traffic Telematics, TUD Dresden University of Technology
 - **License**: MIT (see [`LICENSE`](LICENSE))
 - **Source code**: [github.com/TUD-ITVS/hymn-localization-ipin2026](https://github.com/TUD-ITVS/hymn-localization-ipin2026)
 - **Code archive**: Zenodo DOI `10.5281/zenodo.XXXXXXX` *(populated after the v1.0-ipin2026 GitHub release)*
@@ -138,14 +138,14 @@ If you use this code, please cite the IPIN 2026 paper and the archived release. 
 
 ```bibtex
 @inproceedings{Schwarzbach2026_HYMN_benchmark,
-  author    = {Schwarzbach, Paul and Ammad, Muhammad and Michler, Oliver},
+  author    = {Schwarzbach, Paul and Ammad, Muhammad},
   title     = {From Least Squares to Deep Learning: Benchmarking Indoor Positioning on the {HYMN} Multi-Technology Dataset},
   booktitle = {Proceedings of the 15th International Conference on Indoor Positioning and Indoor Navigation (IPIN 2026)},
   year      = {2026}
 }
 
 @misc{HYMN_Code_zenodo_2026,
-  author    = {Schwarzbach, Paul and Ammad, Muhammad and Michler, Oliver},
+  author    = {Schwarzbach, Paul and Ammad, Muhammad},
   title     = {{HYMN} Multi-Technology Indoor Positioning Evaluation},
   year      = {2026},
   publisher = {Zenodo},
