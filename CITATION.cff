@@ -1,0 +1,91 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the IPIN 2026 paper below and the archived code release."
+title: "HYMN Multi-Technology Indoor Positioning Evaluation"
+abstract: >-
+  Evaluation pipeline accompanying the IPIN 2026 paper "From Least Squares
+  to Deep Learning: Benchmarking Indoor Positioning on the HYMN
+  Multi-Technology Dataset". Implements iterative least squares (ILS),
+  robust least squares (RLS), Bayesian grid filtering (BGF), and two
+  ResNet variants (RandomSplit and SpatialHoldout protocols), and
+  reproduces all numbers, tables, and figures in the manuscript.
+type: software
+license: MIT
+authors:
+  - family-names: Schwarzbach
+    given-names: Paul
+    orcid: "https://orcid.org/0000-0002-1091-782X"
+    affiliation: "Institute of Traffic Telematics, TUD Dresden University of Technology"
+  - family-names: Ammad
+    given-names: Muhammad
+    orcid: "https://orcid.org/0009-0007-2720-8433"
+    affiliation: "Institute of Traffic Telematics, TUD Dresden University of Technology"
+  - family-names: Michler
+    given-names: Oliver
+    orcid: "https://orcid.org/0000-0002-8599-5304"
+    affiliation: "Institute of Traffic Telematics, TUD Dresden University of Technology"
+# `date-released` and `doi` are populated once the v1.0-ipin2026 release
+# is tagged and Zenodo mints the corresponding archive DOI.
+repository-code: "https://github.com/TUD-ITVS/hymn-localization-ipin2026"
+version: "1.0-ipin2026"
+date-released: "2026-XX-XX"
+doi: "10.5281/zenodo.XXXXXXX"
+keywords:
+  - indoor positioning
+  - multi-technology localization
+  - UWB
+  - BLE
+  - WiFi RSSI
+  - Bayesian grid filter
+  - ResNet
+  - HYMN dataset
+  - reproducibility
+preferred-citation:
+  type: conference-paper
+  title: "From Least Squares to Deep Learning: Benchmarking Indoor Positioning on the HYMN Multi-Technology Dataset"
+  authors:
+    - family-names: Schwarzbach
+      given-names: Paul
+      orcid: "https://orcid.org/0000-0002-1091-782X"
+    - family-names: Ammad
+      given-names: Muhammad
+      orcid: "https://orcid.org/0009-0007-2720-8433"
+    - family-names: Michler
+      given-names: Oliver
+      orcid: "https://orcid.org/0000-0002-8599-5304"
+  collection-title: "Proceedings of the 15th International Conference on Indoor Positioning and Indoor Navigation (IPIN 2026)"
+  year: 2026
+references:
+  - type: data
+    title: "TUD-ITVS/HYMN-dataset"
+    authors:
+      - family-names: Michler
+        given-names: Albrecht
+      - family-names: Ammad
+        given-names: Muhammad
+      - family-names: Schwarzbach
+        given-names: Paul
+      - family-names: Ninnemann
+        given-names: Jonas
+      - family-names: "Ußler"
+        given-names: Hagen
+    doi: "10.5281/zenodo.17979434"
+    url: "https://zenodo.org/doi/10.5281/zenodo.17979434"
+    year: 2025
+  - type: article
+    title: "Descriptor: A Hybrid Indoor and Indoor-Outdoor Positioning Multi-Technology Dataset (HYMN)"
+    authors:
+      - family-names: Ammad
+        given-names: Muhammad
+      - family-names: Michler
+        given-names: Albrecht
+      - family-names: Schwarzbach
+        given-names: Paul
+      - family-names: Ninnemann
+        given-names: Jonas
+      - family-names: "Ußler"
+        given-names: Hagen
+      - family-names: Michler
+        given-names: Oliver
+    doi: "10.48550/arXiv.2604.20349"
+    url: "https://arxiv.org/abs/2604.20349"
+    year: 2026

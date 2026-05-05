@@ -1,0 +1,18 @@
+# Pinned dependencies for the HYMN multi-technology positioning evaluation.
+# Versions reflect the development environment used to produce all numbers,
+# tables, and figures in the IPIN 2026 paper.
+#
+# Core (required by all methods, including ILS, RLS, and BGF):
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.15.0
+scikit-learn==1.6.1
+statsmodels==0.14.4
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Required only for the two ResNet methods (ResNet-RandomSplit and
+# ResNet-SpatialHoldout). The classical pipeline runs end-to-end without
+# TensorFlow. The code includes a TF-optional fallback for that case.
+# Install in a Python version compatible with the chosen TensorFlow build.
+tensorflow>=2.16,<3.0

@@ -1,0 +1,42 @@
+# ==== Python ====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.venv*/
+venv/
+env/
+*.egg-info/
+*.egg
+
+# ==== IDE / Editor ====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==== Trained models (regenerable from CSVs) ====
+*.h5
+*.pt
+*.pth
+*.keras
+*.onnx
+Code/outputs/trained/
+
+# ==== Regenerable pipeline artefacts ====
+Code/outputs/predictions/
+Code/outputs/processed_data/
+Code/data/pickle/
+Code/data/parquet/
+Code/data/reference/pickle/
+Code/data/reference/parquet/
+*.pkl
+*.pickle
+*.parquet
+
+# ==== OS files ====
+.DS_Store
+Thumbs.db
+Desktop.ini
