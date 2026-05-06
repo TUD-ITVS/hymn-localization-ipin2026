@@ -14,11 +14,11 @@ authors:
   - family-names: Schwarzbach
     given-names: Paul
     orcid: "https://orcid.org/0000-0002-1091-782X"
-    affiliation: "Institute of Traffic Telematics, TUD Dresden University of Technology"
+    affiliation: "Chair of Transport Systems Information Technology, TUD Dresden University of Technology"
   - family-names: Ammad
     given-names: Muhammad
     orcid: "https://orcid.org/0009-0007-2720-8433"
-    affiliation: "Institute of Traffic Telematics, TUD Dresden University of Technology"
+    affiliation: "Chair of Transport Systems Information Technology, TUD Dresden University of Technology"
 # `date-released` and `doi` are populated once the v1.0-ipin2026 release
 # is tagged and Zenodo mints the corresponding archive DOI.
 repository-code: "https://github.com/TUD-ITVS/hymn-localization-ipin2026"
