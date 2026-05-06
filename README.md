@@ -1,5 +1,7 @@
 # HYMN Multi-Technology Indoor Positioning Evaluation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20058106.svg)](https://doi.org/10.5281/zenodo.20058106)
+
 Companion code for the IPIN 2026 paper *From Least Squares to Deep Learning: Benchmarking Indoor Positioning on the HYMN Multi-Technology Dataset*. Implements iterative least squares (ILS), robust least squares (RLS), Bayesian grid filtering (BGF), and two ResNet variants (RandomSplit and SpatialHoldout protocols), and reproduces every number, table, and figure in the manuscript from the bundled CSV inputs.
 
 - **Paper authors**: Paul Schwarzbach and Muhammad Ammad — Chair of Transport Systems Information Technology, TUD Dresden University of Technology
