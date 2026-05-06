@@ -99,6 +99,9 @@ def plot_ecdf_fused(long_df, cfg=EVAL):
     """Single-panel ECDF: all methods overlaid on the fused technology."""
     _setup_style(cfg)
     sub = long_df[(long_df["technology"] == "fused") & long_df["error"].notna()]
+    if len(sub) == 0:
+        print("[plot_ecdf_fused] no fused-technology rows; skipping")
+        return None
     method_order = _order_methods(sub["method"].unique(), cfg)
 
     fig, ax = plt.subplots(figsize=(5.0, 3.5))
@@ -225,6 +228,9 @@ def plot_boxplot_methods(long_df, cfg=EVAL):
     """
     _setup_style(cfg)
     sub = long_df[(long_df["technology"] == "fused") & long_df["error"].notna()].copy()
+    if len(sub) == 0:
+        print("[plot_boxplot_methods] no fused-technology rows; skipping")
+        return []
     method_order = _order_methods(sub["method"].unique(), cfg)
 
     y_cap = float(np.nanpercentile(sub["error"].values, 95.0)) * 1.05
@@ -437,7 +443,9 @@ def plot_spatial_heatmap(long_df, cfg=EVAL):
 def plot_all(long_df, cfg=EVAL):
     paths = []
     paths.append(plot_anchors_overview(cfg))
-    paths.append(plot_ecdf_fused(long_df, cfg))
+    ecdf = plot_ecdf_fused(long_df, cfg)
+    if ecdf is not None:
+        paths.append(ecdf)
     paths.extend(plot_boxplot_methods(long_df, cfg))
     paths.extend(plot_spatial_error(long_df, cfg))
     paths.extend(plot_spatial_heatmap(long_df, cfg))

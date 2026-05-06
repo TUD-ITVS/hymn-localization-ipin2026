@@ -31,6 +31,9 @@ def main():
                     help="reuse existing results_long.csv, re-ingest ResNet + re-plot")
     args = ap.parse_args()
 
+    if args.quick:
+        args.no_plots = True
+
     cfg = EVAL
 
     if args.skip_classical:
