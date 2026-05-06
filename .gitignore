@@ -28,11 +28,11 @@ Code/outputs/trained/
 # ==== Regenerable pipeline artefacts ====
 Code/outputs/predictions/
 Code/outputs/processed_data/
-Code/data/pickle/
+# Code/data/pickle/
 Code/data/parquet/
-Code/data/reference/pickle/
+# Code/data/reference/pickle/
 Code/data/reference/parquet/
-*.pkl
+# *.pkl
 *.pickle
 *.parquet
 
