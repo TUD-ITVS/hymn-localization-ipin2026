@@ -102,9 +102,9 @@ def load_hymn_data():
     to the surveyed-position labels, ground-truth columns renamed to
     (ref_x, ref_y), and true_ranges / residual_ranges precomputed.
     """
-    df_uwb = read_data('uwb')
-    df_ble = read_data('ble')
-    df_wifi = read_data('wifi')
+    df_uwb = read_data('uwb', 'pickle')
+    df_ble = read_data('ble', 'pickle')
+    df_wifi = read_data('wifi', 'pickle')
 
     df_ble['anchor_ids'] = df_ble['anchor_ids'].apply(_remap_ble_ids)
     df_wifi['anchor_ids'] = df_wifi['anchor_ids'].apply(_remap_wifi_ids)
