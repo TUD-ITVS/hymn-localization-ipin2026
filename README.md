@@ -13,8 +13,10 @@ Companion code for the IPIN 2026 paper *From Least Squares to Deep Learning: Ben
 ```
 hymn-localization-ipin2026/
 ├── Code/
-│   ├── data/csv/                  # HYMN measurements (BLE, UWB, WiFi)
-│   ├── data/reference/            # Anchor positions, reference-point coordinates
+│   ├── data/
+│   │   ├── csv/                   # HYMN measurements (BLE, UWB, WiFi) as CSV
+│   │   ├── pickle/                # Same measurements as .pkl (default load format, faster ingest)
+│   │   └── reference/             # Anchor + reference-point coordinates (csv/ and pickle/ siblings)
 │   ├── hymn/                      # The library — import from any script via `import hymn`
 │   │   ├── io.py                  # CSV ingestion + WIFI/BLE anchor-name & position remap
 │   │   ├── preprocessing.py       # Bounds + range residuals
@@ -56,7 +58,7 @@ hymn-localization-ipin2026/
 | Add a publication figure | `Code/hymn/plotting/figures.py` |
 | Inspect inputs to a single solver call | `Code/hymn/evaluation/data_interface.iter_measurements` |
 
-The CSV files in `Code/data/csv/` are a subset of the HYMN Zenodo deposit (DOI `10.5281/zenodo.17979434`), restricted to the BLE, UWB, and WiFi technologies that this paper evaluates. The full set including 5G NR and GNSS measurements is available in the upstream deposit. The manuscript source is maintained separately and is not part of this repository.
+The measurements under `Code/data/csv/` are a subset of the HYMN Zenodo deposit (DOI `10.5281/zenodo.17979434`), restricted to the BLE, UWB, and WiFi technologies that this paper evaluates. The full set including 5G NR and GNSS measurements is available in the upstream deposit. The same measurements are also bundled as pickled DataFrames under `Code/data/pickle/`; `hymn.io.load_hymn_data` reads from `pickle/` by default, and `hymn.io.read_data(sensor, file_type='csv')` falls back to the CSV inputs (the two are kept in sync). The manuscript source is maintained separately and is not part of this repository.
 
 ## Hardware and software requirements
 
