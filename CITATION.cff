@@ -23,8 +23,8 @@ authors:
 # is tagged and Zenodo mints the corresponding archive DOI.
 repository-code: "https://github.com/TUD-ITVS/hymn-localization-ipin2026"
 version: "1.0-ipin2026"
-date-released: "2026-XX-XX"
-doi: "10.5281/zenodo.XXXXXXX"
+date-released: "2026-05-06"
+doi: "10.5281/zenodo.20058106"
 keywords:
   - indoor positioning
   - multi-technology localization

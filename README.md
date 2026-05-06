@@ -5,7 +5,7 @@ Companion code for the IPIN 2026 paper *From Least Squares to Deep Learning: Ben
 - **Paper authors**: Paul Schwarzbach and Muhammad Ammad — Chair of Transport Systems Information Technology, TUD Dresden University of Technology
 - **License**: MIT (see [`LICENSE`](LICENSE))
 - **Source code**: [github.com/TUD-ITVS/hymn-localization-ipin2026](https://github.com/TUD-ITVS/hymn-localization-ipin2026)
-- **Code archive**: Zenodo DOI `10.5281/zenodo.XXXXXXX` *(populated after the v1.0-ipin2026 GitHub release)*
+- **Code archive**: Zenodo DOI [`10.5281/zenodo.20058106`](https://doi.org/10.5281/zenodo.20058106)
 - **HYMN dataset**: Zenodo DOI [`10.5281/zenodo.17979434`](https://zenodo.org/doi/10.5281/zenodo.17979434), data descriptor [arXiv:2604.20349](https://arxiv.org/abs/2604.20349)
 
 ## Repository layout
@@ -151,7 +151,7 @@ If you use this code, please cite the IPIN 2026 paper and the archived release. 
   title     = {{HYMN} Multi-Technology Indoor Positioning Evaluation},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.XXXXXXX}
+  doi       = {10.5281/zenodo.20058106}
 }
 ```
 
