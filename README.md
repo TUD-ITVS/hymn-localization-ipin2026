@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hymn-logo-dark.svg">
+  <img alt="HYMN, Hybrid Multi-technology Navigation" src="assets/hymn-logo.svg" width="360">
+</picture>
+
 # HYMN Multi-Technology Indoor Positioning Evaluation
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20058106.svg)](https://doi.org/10.5281/zenodo.20058106)
