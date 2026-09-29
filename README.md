@@ -9,6 +9,7 @@ Companion code for the IPIN 2026 paper *From Least Squares to Deep Learning: Ben
 - **Source code**: [github.com/TUD-ITVS/hymn-localization-ipin2026](https://github.com/TUD-ITVS/hymn-localization-ipin2026)
 - **Code archive**: Zenodo DOI [`10.5281/zenodo.20058106`](https://doi.org/10.5281/zenodo.20058106)
 - **HYMN dataset**: Zenodo DOI [`10.5281/zenodo.17979434`](https://zenodo.org/doi/10.5281/zenodo.17979434), data descriptor [arXiv:2604.20349](https://arxiv.org/abs/2604.20349)
+- **Project page**: [paulschwarzbach.github.io/hymn](https://paulschwarzbach.github.io/hymn/), overview of the HYMN dataset and the studies built on it
 
 ## Repository layout
 
